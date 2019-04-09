@@ -1,10 +1,37 @@
 body{
-    background-color: grey
-}
-#images{
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    font-family: ‘Josefin Sans’;
+    src: url(https://fonts.googleapis.com/css?family=Josefin+Sans);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    size: 20%
+    align-items: center;
+    text-align: center;
+
+}
+
+  .flex-center{
+      display: flex;
+      justify-content: center
+  }
+  /* #prince1{
+      display: flex;
+      justify-content: flex-end;
+      width: 200px;
+  }
+  #prince2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+     
+}
+#prince3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+} */
+.wow{
+    display: flex;
+    flex-direction: row;
+    width: 2000px;
 }
