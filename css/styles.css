@@ -1,3 +1,35 @@
 body{
-    background-color: grey
+    background-color: grey;
+}
+
+nav {
+    background-color: lavender;
+    height: 150px;
+}
+
+.page-footer {
+    background-color: lavender;
+}
+
+.symbol {
+    width: 10%;
+    margin-left: 50px;
+} 
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.n-text {
+    color: #4B0082;
+    
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    color: #4B0082;
 }
