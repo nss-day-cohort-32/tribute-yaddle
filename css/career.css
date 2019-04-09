@@ -1,0 +1,10 @@
+body{
+    background-color: grey
+}
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    size: 20%
+}
