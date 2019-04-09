@@ -1,12 +1,4 @@
 body {
-    background-color: lavender;
-}
-
-/* nav {
-    background-color: lavender; */
-    /* height: 150px; */
-
-
-/* .symbol {
-    height: 80px;
-} */
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    
