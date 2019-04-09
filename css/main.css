@@ -1,4 +1,37 @@
 body {
     background-color: #f8ceec;
     background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-    
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    color: #4B0082;
+}
+
+.flex-container2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.prince5 {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    padding-left: 20px;
+    color: white;
+}
+
+ul {
+    color: white;
+}
