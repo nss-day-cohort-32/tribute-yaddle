@@ -6,7 +6,7 @@ body{
   padding: 120px 200px 50px;
   background: purple url("https://img.songfacts.com/calendar/18697.jpg") -10% 0 repeat-x;
   color: white;
-  font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: "Comic Sans MS", cursive, sans-serif;
   
    
 
@@ -83,7 +83,21 @@ ol{
 }
 h1{
     text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+   font-family: Marker Felt, fantasy
+    
+}
+h2, h3{
+    
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Marker Felt, fantasy
+    
 }
 .py-3{
     color: purple
+}
+p{
+    font-family: "Blippo", fantasy
 }
