@@ -1,0 +1,79 @@
+body{
+    position: relative;
+  z-index: 1;
+  min-width: 200px;
+  min-height: 200px;
+  padding: 120px 200px 50px;
+  background: purple url("https://img.songfacts.com/calendar/18697.jpg") -10% 0 repeat-x;
+  color: white;
+  
+  
+   
+
+}
+
+nav {
+    background-color: lavender;
+    height: 70px;
+    margin: 30px;
+}
+
+  .flex-center{
+      display: flex;
+      justify-content: center
+  }
+  
+  #prince2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+
+  }
+
+#prince3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 50%;
+    padding: 5px;
+   
+}  
+#prince1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.wow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+aside{
+    justify-items: center;
+    
+    text-align: center
+}
+#places{
+    justify-items: center;
+    text-align: center
+}
+ul {
+    list-style-type: none;
+  }
+ol{
+    list-style-type: none;
+}  
+.col-md-12{
+    height: 50px;
+}
+h1{
+    text-align: center;
+}
