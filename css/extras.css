@@ -14,33 +14,34 @@ p.intro {
 
 iframe {
   display: inline-block;
+  max-width: 600px;
   width: 70%;
 }
 
-ul {
+section ul {
   display: inline-block;
   vertical-align: top;
   width: 25%
 }
 
-li {
+section li {
   font-size: 1.3em;
   line-height: 1em;
   list-style-type: none;
   padding-bottom: 20px;
 }
 
-li a {
+section li a {
   color: rgba(75, 0, 130, 1);
   transition: color 400ms ease;
 }
 
-li a:hover {
+section i a:hover {
   color: #fff;
   text-decoration: none;
 }
 
-li.heading {
+section li.heading {
   font-family: 'Sail', cursive;
   font-size: 1.4em;
   color: #fff;
