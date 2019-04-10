@@ -1,14 +1,15 @@
-body{
-    background-color: grey;
-    position: relative;
-    z-index: 1;
-    min-width: 200px;
-    min-height: 200px;
-    padding: 120px 200px 50px;
+body {
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 }
 
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+}
 nav {
     background-color: lavender;
+    height: 100px;
     height: 70px;
     margin: 30px;
 }
@@ -19,7 +20,7 @@ nav {
 }
 
 .symbol {
-    width: 10%;
+    width: 50px;
     margin-left: 50px;
 } 
 
