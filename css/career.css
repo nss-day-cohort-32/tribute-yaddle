@@ -27,22 +27,49 @@ nav {
   #prince2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 5px;
-    margin: 50px;
     width: 300px;
     border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+    float: left;
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+   
+}
+#prince2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 
-  }
-
+}
 #prince3{
     display: flex;
     flex-direction: column;
     width: 300px;
     border-radius: 50%;
     padding: 5px;
+    position: relative;
+    margin: auto;
+    float: left;
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
    
-}  
+}
+#prince3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+
+}
 #prince1{
     display: flex;
     flex-direction: column;
@@ -52,7 +79,19 @@ nav {
     position: relative;
     margin: auto;
     float: left;
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
    
+}
+#prince1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+
 }
 
 
