@@ -1,11 +1,18 @@
 body{
     background-color: grey;
+    position: relative;
+    z-index: 1;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 120px 200px 50px;
 }
 
 nav {
     background-color: lavender;
-    height: 150px;
+    height: 70px;
+    margin: 30px;
 }
+
 
 .page-footer {
     background-color: lavender;
