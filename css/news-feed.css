@@ -1,0 +1,10 @@
+.newsfd-img {
+    width: 300px;
+    border-radius:25%;
+    border: 2px darkviolet solid;
+}
+
+#news-top-h1 {
+ color: violet;
+ text-shadow: 3px 3px 3px darkviolet;   
+}
